@@ -1,4 +1,4 @@
-# EV-Manager
+# Travel Studio
 
 ## Installation
 
@@ -41,4 +41,16 @@ To run the application locally:
 
 ## Deployed Link
 
-[Travel-Studio (Vercel)]()
+[Travel-Studio (Vercel)](https://travel-studio.vercel.app/)
+
+## Design Choices
+
+I've kept the design really simple. I wanted to deliver the features first. I can surely work on improving the design once the functionalities are implemented in the right manner.
+
+## Challenges Faced
+
+When a User click on an amenity in the 3D map, the card for the amenity pops up showing the detailed description. Now, the reverse of this should also be true i.e. when the User clicks on an amenity card, it should be highlighted on the 3D map.
+
+This is something that I had difficulty in implementing. I used some ChatGPT prompts as well as Lovable AI to review my code and help with implementing this feature.
+
+The feature is now implemented.
